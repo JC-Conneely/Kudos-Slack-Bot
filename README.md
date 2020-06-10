@@ -5,5 +5,6 @@ The code presented here can be used to create a "Kudos" Slack bot that will tag 
 To implement this, you must:
 1. Create a Google Form similar to this one [here](https://docs.google.com/forms/d/e/1FAIpQLSf8hSUYyOGfZZ-pfswVFuNO0CmCYC5MpR5yd-0glU_nlNVecw/viewform)!
 2. Add the Kudos.gs code to the form you just created (settings -> script editor).
-3. Update the code by generating your own Slack App and webhooks URL. Be sure to give the App permission to send messages in the channel you want!
-4. Link the form to Slack by 
+3. Update the code by generating your own Slack App and associated [webhooks](https://api.slack.com/messaging/webhooks) URL. Be sure to give the App permission to send messages in the channel you want!
+4. In the toolbar of the Google Form script editor, click the function initialize()!
+5. You're good to go!
